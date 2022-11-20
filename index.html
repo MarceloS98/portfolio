@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/450cb384cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Marcelo Sosa - Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      id="header"
+      class="fixed top-0 left-0 right-0 z-20 bg-white shadow-md transition-transform duration-300"
+    >
+      <nav
+        class="container flex w-full max-w-5xl justify-between py-6 sm:items-center"
+      >
+        <!-- Nombre -->
+        <a href="#" class="text-xl font-semibold">Marcelo Sosa</a>
+
+        <!-- Hamburguer Icon -->
+        <button
+          id="menu-btn"
+          class="hamburguer relative z-20 block self-center justify-self-end focus:outline-none sm:hidden"
+        >
+          <span class="hamburguer-top bg-white"></span>
+          <span class="hamburguer-middle bg-white"></span>
+          <span class="hamburguer-bottom bg-white"></span>
+        </button>
+
+        <!-- Desktop links -->
+        <ul class="hidden text-center text-white sm:flex">
+          <a href="#"><li class="font-bold text-black">Download CV</li></a>
+        </ul>
+      </nav>
+
+      <!-- Mobile links -->
+      <nav
+        id="mobile-nav"
+        class="absolute z-10 hidden w-full bg-white shadow-md sm:hidden"
+      >
+        <ul class="text-center text-black">
+          <a href="#"><li class="py-3 font-bold">Download CV</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section
+      class="container mb-14 mt-32 max-w-4xl bg-white md:mb-14 md:flex md:items-start lg:mb-20"
+    >
+      <!-- Name & Contact -->
+      <section
+        class="mt-14 grid w-full place-items-center md:mr-10 md:mt-0 md:w-auto lg:mr-14"
+      >
+        <div
+          class="mb-5 h-36 w-36 overflow-hidden rounded-full shadow-md shadow-gray-400"
+        >
+          <img
+            src="./src/img/profile.jpg"
+            alt="Marcelo Sosa"
+            class="w-full scale-125"
+          />
+        </div>
+        <h2 class="mb-5 text-xl font-bold">Marcelo Sosa</h2>
+        <div class="mb-5 w-16 border-t-2 border-t-black"></div>
+        <!-- Icons -->
+        <div class="text-4xl">
+          <a
+            href="https://www.linkedin.com/in/marcelo-sosa-4b0441163/"
+            class="mr-2"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="mailto:sosamarcelo92@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Presentation -->
+      <section class="presentation mt-10 md:mt-0">
+        <h2 class="mb-6 text-3xl font-bold lg:text-4xl">¡Hola!</h2>
+        <p
+          class="mb-7 text-xl"
+          style="
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+          "
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          laudantium, quae qui ratione maxime sed?
+        </p>
+
+        <a
+          href="#projects"
+          id="view-projects"
+          class="mb-7 inline-block rounded-full border bg-black px-7 py-2 font-bold text-white transition-colors duration-200 hover:border-black hover:bg-transparent hover:text-black"
+        >
+          View My Projects
+        </a>
+
+        <p class="leading-8 tracking-wide">
+          With 6 years of experience, I leverage systemic design thinking to
+          solve real-world problems by creating cohesive end-to -end user
+          experiences and focusing on digital transformation. I am keen to
+          deliver a meaningful design for social good and make the world a
+          better place.
+        </p>
+      </section>
+    </section>
+
+    <!-- Proyects section -->
+    <main class="bg-gray-100 py-16">
+      <section id="projects" class="container max-w-5xl">
+        <!-- Individual project -->
+        <article class="mb-14 bg-white shadow-lg md:flex">
+          <div class="mb-5 h-64 w-full bg-black md:mb-0 md:h-auto">
+            <img
+              src="./src/img/web-dev-ty.jpg"
+              alt="programming"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <section class="px-5 pb-10 md:py-7">
+            <span class="mb-5 block uppercase tracking-widest text-gray-500"
+              >#html #css #tailwind #javascript
+            </span>
+            <h2 class="mb-5 text-3xl font-extrabold">BBC - BRB</h2>
+            <p class="mb-6 text-lg leading-relaxed">
+              Enhanced digital wellness through the adoption of nudge strategies
+              which is a built-in feature that detects which tool is appropriate
+              for each user.
+            </p>
+            <div class="flex items-center justify-between gap-10">
+              <a
+                href="#"
+                class="inline-block rounded-full border bg-black px-7 py-2 font-bold text-white transition-colors duration-200 hover:border-black hover:bg-transparent hover:text-black"
+              >
+                View This Project
+              </a>
+              <a href="https://www.github.com/" target="_blank" class="text-4xl"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </section>
+        </article>
+        <!-- Individual project ends -->
+        <!-- Individual project -->
+        <article class="mb-14 bg-white shadow-lg md:flex">
+          <div class="mb-5 h-64 w-full bg-black md:mb-0 md:h-auto">
+            <img
+              src="./src/img/web-dev-ty.jpg"
+              alt="programming"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <section class="px-5 pb-10 md:py-7">
+            <span class="mb-5 block uppercase tracking-widest text-gray-500"
+              >#html #css #tailwind #javascript
+            </span>
+            <h2 class="mb-5 text-3xl font-extrabold">BBC - BRB</h2>
+            <p class="mb-6 text-lg leading-relaxed">
+              Enhanced digital wellness through the adoption of nudge strategies
+              which is a built-in feature that detects which tool is appropriate
+              for each user.
+            </p>
+            <div class="flex items-center justify-between gap-10">
+              <a
+                href="#"
+                class="inline-block rounded-full border bg-black px-7 py-2 font-bold text-white transition-colors duration-200 hover:border-black hover:bg-transparent hover:text-black"
+              >
+                View This Project
+              </a>
+              <a href="https://www.github.com/" target="_blank" class="text-4xl"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </section>
+        </article>
+        <!-- Individual project ends -->
+        <!-- Individual project -->
+        <article class="bg-white shadow-lg md:flex">
+          <div class="mb-5 h-64 w-full bg-black md:mb-0 md:h-auto">
+            <img
+              src="./src/img/web-dev-ty.jpg"
+              alt="programming"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <section class="px-5 pb-10 md:py-7">
+            <span class="mb-5 block uppercase tracking-widest text-gray-500"
+              >#html #css #tailwind #javascript
+            </span>
+            <h2 class="mb-5 text-3xl font-extrabold">BBC - BRB</h2>
+            <p class="mb-6 text-lg leading-relaxed">
+              Enhanced digital wellness through the adoption of nudge strategies
+              which is a built-in feature that detects which tool is appropriate
+              for each user.
+            </p>
+            <div class="flex items-center justify-between gap-10">
+              <a
+                href="#"
+                class="inline-block rounded-full border bg-black px-7 py-2 font-bold text-white transition-colors duration-200 hover:border-black hover:bg-transparent hover:text-black"
+              >
+                View This Project
+              </a>
+              <a href="https://www.github.com/" target="_blank" class="text-4xl"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </section>
+        </article>
+        <!-- Individual project ends -->
+      </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
